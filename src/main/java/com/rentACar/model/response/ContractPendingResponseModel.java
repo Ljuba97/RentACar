@@ -1,0 +1,19 @@
+package com.rentACar.model.response;
+
+public class ContractPendingResponseModel {
+    private boolean successful;
+    private String info;
+
+    public ContractPendingResponseModel(boolean successful, String info) {
+        this.successful = successful;
+        this.info = info;
+    }
+
+    public boolean isSuccessful() {
+        return successful;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+}
